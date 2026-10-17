@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">M.H.O.I</string>
+    <string name="app_display_name">دستیار هوشمند M.H.O.I</string>
+    <string name="app_version">1.0.0 (نسخه پایدار گلکسی A23)</string>
+
+    <!-- Navigation & Titles -->
+    <string name="title_dashboard">داشبورد دستیار M.H.O.I</string>
+    <string name="title_chat">گفتگوی متنی</string>
+    <string name="title_voice">مکالمه صوتی</string>
+    <string name="title_memory">حافظه محلی</string>
+    <string name="title_reminders">یادآورها و هشدارها</string>
+    <string name="title_settings">تنظیمات برنامه</string>
+    <string name="title_lock">ورود امن</string>
+    <string name="title_setup_wizard">راهنمای راه‌اندازی و دسترسی‌ها</string>
+    <string name="title_samsung_guide">راهنمای بهینه‌سازی سامسونگ A23</string>
+    <string name="title_about">درباره M.H.O.I</string>
+
+    <!-- Dashboard Status -->
+    <string name="status_mic_ready">میکروفون: آماده شنیدن</string>
+    <string name="status_mic_listening">میکروفون: در حال ضبط / پردازش</string>
+    <string name="status_mic_permission_needed">میکروفون: نیازمند دسترسی</string>
+    <string name="status_voice_service_running">سرویس پس‌زمینه: فعال</string>
+    <string name="status_voice_service_stopped">سرویس پس‌زمینه: متوقف</string>
+    <string name="status_api_unconfigured">وضعیت API: تنظیم‌نشده (آماده اتصال سرور آینده)</string>
+    <string name="status_api_connected">وضعیت API: متصل</string>
+    <string name="status_api_error">وضعیت API: خطای ارتباط</string>
+
+    <!-- Chat & AI Notice -->
+    <string name="chat_api_unconfigured_banner">برای دریافت پاسخ هوشمند، ابتدا API خود را متصل کنید.</string>
+    <string name="chat_input_hint">پیام خود را به فارسی بنویسید...</string>
+    <string name="chat_send">ارسال</string>
+    <string name="chat_new_conversation">گفتگوی جدید</string>
+    <string name="chat_clear_history">پاک‌سازی تاریخچه</string>
+    <string name="chat_copy_success">متن پیام کپی شد</string>
+    <string name="chat_delete_confirm">آیا مایل به حذف این پیام هستید؟</string>
+
+    <string name="creator_name">سازنده: محمد پارسا محمودی</string>
+    <string name="wake_word_label">عبارت بیداربش: «سلام پاتریک»</string>
+    <string name="wake_word_response">جانم محمد</string>
+    <string name="wake_word_description">با گفتن این عبارت در پس‌زمینه یا زدن دکمه فوری، دستیار با «جانم محمد» پاسخ صوتی مردانه می‌دهد.</string>
+    <string name="voice_listening">در حال شنیدن صدای شما...</string>
+    <string name="voice_press_to_speak">دکمه را فشار دهید و صحبت کنید</string>
+    <string name="voice_speak_stop">توقف خواندن</string>
+    <string name="voice_speak_replay">پخش مجدد پاسخ</string>
+    <string name="voice_tts_not_supported">موتور صوتی فارسی در دستگاه شناسایی نشد.</string>
+
+    <!-- Security & Lock -->
+    <string name="lock_enter_pin">رمز عبور برنامه را وارد کنید</string>
+    <string name="lock_set_pin">یک رمز عبور جدید تنظیم کنید</string>
+    <string name="lock_confirm_pin">تکرار رمز عبور</string>
+    <string name="lock_invalid_pin">رمز عبور اشتباه است!</string>
+    <string name="lock_biometric_title">احراز هویت بیومتریک</string>
+    <string name="lock_biometric_subtitle">ورود با اثر انگشت به دستیار محمد پاتریک</string>
+    <string name="lock_timeout_immediate">بلافاصله بعد از خروج</string>
+    <string name="lock_timeout_1min">۱ دقیقه بعد از پس‌زمینه</string>
+    <string name="lock_timeout_5min">۵ دقیقه</string>
+    <string name="lock_timeout_15min">۱۵ دقیقه</string>
+
+    <!-- Local Memory -->
+    <string name="memory_title_hint">عنوان یادداشت یا اولویت</string>
+    <string name="memory_content_hint">متن مورد نظر برای ذخیره در حافظه محلی...</string>
+    <string name="memory_save">ذخیره در حافظه محلی</string>
+    <string name="memory_clear_all">حذف تمام اطلاعات حافظه</string>
+    <string name="memory_export">خروجی گرفتن متنی (JSON / TXT)</string>
+    <string name="memory_privacy_notice">تمام این اطلاعات فقط روی حافظه رمزنگاری‌شده این گوشی نگهداری می‌شود و به هیچ سروری ارسال نمی‌گردد.</string>
+
+    <!-- Permissions Wizard -->
+    <string name="perm_mic_title">دسترسی به میکروفون</string>
+    <string name="perm_mic_desc">جهت تشخیص صدا، دستورات صوتی و عبارت بیداربش «M.H.O.I» الزامی است.</string>
+    <string name="perm_notif_title">دسترسی اعلان‌ها (Android 14)</string>
+    <string name="perm_notif_desc">برای نمایش یادآورها و آیکون سرویس فعال پس‌زمینه در نوار وضعیت.</string>
+    <string name="perm_battery_title">غیرفعال‌سازی بهینه‌ساز باتری (Samsung One UI)</string>
+    <string name="perm_battery_desc">سامسونگ برای صرفه‌جویی باتری برنامه‌ها را می‌بندد؛ انتخاب گزینه Unrestricted مانع قطعی دستیار می‌شود.</string>
+    <string name="perm_grant_button">اعطای دسترسی</string>
+    <string name="perm_settings_button">باز کردن تنظیمات گوشی</string>
+
+    <!-- Samsung A23 Guide -->
+    <string name="samsung_step1">۱. به تنظیمات برنامه در سامسونگ بروید.</string>
+    <string name="samsung_step2">۲. بخش Battery (باتری) را باز کرده و گزینه Unrestricted (نامحدود) را انتخاب نمایید.</string>
+    <string name="samsung_step3">۳. در بخش Device Care > Background Usage Limits، برنامه را به Never sleeping apps اضافه کنید.</string>
+    <string name="samsung_step4">۴. به بخش Notifications رفته و دسترسی اعلان‌ها را در حالت مجاز قرار دهید.</string>
+
+    <!-- API Settings -->
+    <string name="api_url_label">آدرس Base URL سرور آینده:</string>
+    <string name="api_url_hint">https://api.yourdomain.com/v1</string>
+    <string name="api_key_label">کلید API (اختیاری):</string>
+    <string name="api_timeout_label">مهلت زمانی پاسخ (ثانیه):</string>
+    <string name="api_test_connection">تست اتصال سرور</string>
+    <string name="api_save_settings">ذخیره تنظیمات API</string>
+</resources>
